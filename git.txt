@@ -1,0 +1,28 @@
+git add .
+git commit -m 'msg'
+git push -u origin master 
+
+git init //把这个目录变成Git可以管理的仓库 
+git add README.md //文件添加到仓库 
+git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
+git commit -m “first commit” //把文件提交到仓库，双引号里为提交说明 
+git remote add origin git@github.com:cgglol/NDKdemo.git //关联远程仓库 
+git push -u origin master //把本地库的所有内容推送到远程库上
+
+git status   //查看改动
+git add .    //添加到本地仓库
+git commit -m:"备注"     //提交
+git pull --rebase origin  master  //从远程仓库拉项目
+git status  //再看看是不是一样的
+git push origin  master  //提交到远程仓库 
+
+//gitlab的话还得登录gitlab账号去create merge request
+
+change
+//处理分支
+git push -u origin index-swiper
+git checkout master
+git merge origin/index-swiper
+git push -u origin master
+
+git checkout index-icons
