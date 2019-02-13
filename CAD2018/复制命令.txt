@@ -1,1 +1,4 @@
-co cp
+co cp ctrl+c 
+co 空格选择对象 a阵列 选择项目数
+选中 按住鼠标右键
+ctrl shift c 选择基点
